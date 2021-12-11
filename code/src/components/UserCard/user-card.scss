@@ -1,0 +1,62 @@
+@import "../../scss/vars";
+
+.user-card {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  overflow: hidden;
+
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   left: 0;
+  //   top: 0;
+  //   width: 100%;
+  //   height: 30%;
+  //   background-image: url("../../assets/images/bg-pattern-card.svg");
+  //   z-index: -1;
+  // }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c3d2e;
+    width: 100%;
+  }
+
+  // Texts
+  &__title {
+    font-size: 4.5vmax;
+    color: #008000;
+  }
+
+  &__count {
+    margin-top: -1vh;
+    font-size: 10vmax;
+    color: #fff;
+  }
+
+  // Btns
+  .btn {
+    padding: 12px;
+    text-transform: uppercase;
+    background-color: #0d2c54;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0.5rem;
+    border: none;
+  }
+
+  &__decr {
+    margin-top: -7rem;
+  }
+  &__incr {
+    margin: -0.5rem 0 1rem 0;
+  }
+}

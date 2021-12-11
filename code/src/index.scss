@@ -1,0 +1,25 @@
+@import "./scss/vars";
+@import "./scss/fonts";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a,
+ul,
+li {
+  color: #000;
+}
+
+body {
+  margin: 0;
+  font-family: $main-font;
+  background-color: $primary-light;
+  color: #000;
+}

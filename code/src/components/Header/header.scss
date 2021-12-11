@@ -1,0 +1,87 @@
+@import "../../scss/vars";
+@import "../../scss/fonts";
+
+.header {
+  padding: 1rem 0;
+  background-color: #fef8dd;
+  color: #000;
+
+  &__inner {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    min-width: 10%;
+    height: 6rem;
+    margin-right: 2rem;
+    background: url("../../assets/icons/idea-logo.svg") no-repeat center center;
+    background-size: contain;
+
+    a {
+      width: auto;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 1rem;
+
+      font-size: 1.5rem;
+      font-family: "Audiowide Regular", sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      color: #000;
+      border-radius: 8x;
+    }
+  }
+
+  &__nav {
+    max-width: 85%;
+    width: 100%;
+  }
+
+  &__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+      margin: 0 1rem;
+    }
+
+    a {
+      padding: 7px 5px 5px 7px;
+
+      color: #000;
+      font-size: 1.5rem;
+      // font-family: "AC Boucle", sans-serif;
+
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 2px solid transparent;
+      border-right: 2px solid transparent;
+      transition: 0.3s;
+
+      &:hover {
+        border-color: $font-color;
+      }
+      &.active {
+        border-right: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        border-color: $font-color;
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
+
+  &__link {
+    border: 1px solid black;
+  }
+}
