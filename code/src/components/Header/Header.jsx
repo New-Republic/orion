@@ -1,31 +1,39 @@
 import "./header.scss";
 import { NavLink } from "react-router-dom";
 
+import Dropdown from "../Dropdown/Dropdown";
+
 function Header() {
   return (
     <header className="header">
       <div className="header__inner">
-        <NavLink to="/">
-          <div className="header__logo">
-            {/* <NavLink to="/">B</NavLink> */}
-          </div>
-        </NavLink>
+        <div className="header__logo">
+          <NavLink className="header__logo-link" to="/">
+            Logo
+          </NavLink>
+        </div>
+
         <nav className="header__nav">
           <ul className="header__menu">
             <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            {/* <li>
-              <NavLink to="/journal">Journal</NavLink>
-            </li> */}
-            <li>
-              <NavLink to="/portfolio">Portfolio</NavLink>
+              <NavLink to="/">Главная</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/about">О компании</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              {/* <NavLink className="header__dropdown" to="/services"> */}
+              <Dropdown />
+              {/* </NavLink> */}
+            </li>
+            <li>
+              <NavLink to="/price">Прайс-лист</NavLink>
+            </li>
+            <li>
+              <NavLink to="/news">Новости</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Контакты</NavLink>
             </li>
           </ul>
         </nav>

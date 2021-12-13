@@ -3,8 +3,8 @@
 
 .header {
   padding: 1rem 0;
-  background-color: #fef8dd;
-  color: #000;
+  background-color: #181818;
+  color: #fff;
 
   &__inner {
     max-width: 95%;
@@ -16,12 +16,11 @@
 
   &__logo {
     min-width: 10%;
-    height: 6rem;
+    // height: 6rem;
     margin-right: 2rem;
-    background: url("../../assets/icons/idea-logo.svg") no-repeat center center;
-    background-size: contain;
+    // background-size: contain;
 
-    a {
+    &-link {
       width: auto;
       height: auto;
       display: flex;
@@ -34,7 +33,7 @@
       text-decoration: none;
       text-transform: uppercase;
 
-      color: #000;
+      color: #fff;
       border-radius: 8x;
     }
   }
@@ -50,6 +49,7 @@
     list-style: none;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 
     li {
       margin: 0 1rem;
@@ -58,27 +58,86 @@
     a {
       padding: 7px 5px 5px 7px;
 
-      color: #000;
-      font-size: 1.5rem;
-      // font-family: "AC Boucle", sans-serif;
+      color: #fff;
+      font-size: 1rem;
 
       text-decoration: none;
       text-transform: uppercase;
-      border-bottom: 2px solid transparent;
+      // border-bottom: 2px solid transparent;
       border-right: 2px solid transparent;
       transition: 0.3s;
 
       &:hover {
-        border-color: $font-color;
+        border-color: #fff;
       }
       &.active {
         border-right: 4px solid transparent;
-        border-bottom: 4px solid transparent;
         border-color: $font-color;
-        background-color: #000;
+        background-color: #fff;
+        color: #000;
+      }
+    }
+
+    // Dropdown
+    button {
+      padding: 7px 5px 5px 7px;
+      font-size: 1rem;
+      text-transform: uppercase;
+      border-right: 2px solid transparent;
+      transition: 0.3s;
+      background: none;
+
+      border: none;
+      color: #fff;
+
+      &:hover {
+        border-color: #fff;
+      }
+      &.active {
+        border-right: 4px solid transparent;
+        border-color: $font-color;
+        background-color: #fff;
+        color: #000;
+      }
+    }
+
+    .dropdown {
+      a button {
+        color: #fff;
+      }
+
+      a.active button {
+        color: #000;
+      }
+    }
+
+    div[role="menu"] {
+      display: flex;
+      flex-direction: column;
+      display: none;
+      margin-top: 12px;
+
+      a.active {
+        background: none;
         color: #fff;
       }
     }
+
+    div[role="menu"].visible {
+      position: absolute;
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      display: block;
+
+      // background-color: rgba(7, 7, 7, 0.562);
+      background-color: rgba(182, 0, 0, 0.562);
+
+      a {
+        cursor: pointer;
+      }
+    }
+    // End dropdown =====
   }
 
   &__link {
