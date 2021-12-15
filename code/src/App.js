@@ -10,6 +10,7 @@ import News from "./pages/News/News";
 import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/NotFound/NotFound";
 
+
 function App() {
   return (
     <>
