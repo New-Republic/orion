@@ -1,3 +1,16 @@
+<h1>Инструкция перед работой! Обязательно к прочтению</h1>
+
+1) git clone<br/>
+2) git branch name<br/>
+3) git checkout name<br/>
+4) Работа<br/>
+5) git add <br/>
+6) git commit -m<br/>
+7) git push --set-upstream origin name<br/>
+
+<h4>Потом я сделаю merge.</h4>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
