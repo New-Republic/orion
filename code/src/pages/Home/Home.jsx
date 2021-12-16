@@ -2,7 +2,7 @@ import "./home.scss";
 import "./Banner/Banner";
 import Banner from "./Banner/Banner";
 import HomeServices from "./HomeServices/Homeservices";
-
+import Form from "./Form/Form";
 import Adverd from "./Adverd/Adverd";
 
 function Home() {
@@ -74,6 +74,9 @@ function Home() {
       </div>
 
       <Adverd />
+
+
+      <Form/>
     </div>
   );
 }
