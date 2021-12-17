@@ -15,7 +15,7 @@ const Pricecard = (props) => {
         <h2 className="price-card__age1">{props.userNumber}</h2>
         <h5 className="price-card__age2">{props.userDecimol}</h5>
         </div>
-
+ 
         <div className="price-card__text">
           <p className="price-card__none">{props.userItem1}</p>
           <p className="price-card__item">{props.userItem2}</p>
