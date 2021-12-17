@@ -1,0 +1,12 @@
+.mainForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
