@@ -1,11 +1,17 @@
-import "./about.scss";
+import React from 'react'
+import "./about.scss"
+import Aboutus from "./Aboutus/Aboutus"
+import Projects from "./Projects/Projects"
+
 
 function About() {
-  return (
-    <div className="about">
-      <h1>About</h1>
-    </div>
-  );
+    return (
+        <div>
+            <Aboutus/>
+            <Projects/>
+           
+        </div>
+    )
 }
 
-export default About;
+export default About
