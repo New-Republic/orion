@@ -1,16 +1,15 @@
-import React from 'react'
-import  "./form.scss";
+import React from "react";
+import "./form.scss";
 import MyComponent from "./GMap/GMap";
-import Formfill from './Formfill/Formfill';
-
+import Formfill from "./Formfill/Formfill";
 
 function Form() {
-    return (
-        <div className='form'>
-            <MyComponent/>
-            <Formfill/>
-        </div>
-    )
+  return (
+    <div className="mainForm">
+      <MyComponent />
+      <Formfill />
+    </div>
+  );
 }
 
-export default Form
+export default Form;

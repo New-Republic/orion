@@ -1,4 +1,6 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
 import "./adverd.scss";
 function Adverd() {
   return (
@@ -9,7 +11,7 @@ function Adverd() {
           Проведем аудит Вашего бизнеса и сделаем индивидуальный план развития!
         </p>
         <button>
-          <a href="#">Подробнее</a>
+          <NavLink to="about">Подробнее</NavLink>
         </button>
       </div>
     </div>
