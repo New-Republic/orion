@@ -5,12 +5,14 @@ import { Button, Form, Input } from "semantic-ui-react";
 import React from "react";
 
 function Mail() {
+  const myCustomColor = "rgb(200, 200, 255)";
   return (
     <div className="mail">
       <Form>
         <Form.Field>
           <Input
             icon={{ name: "mail outline", circular: true, link: true }}
+            color={myCustomColor}
             iconPosition="left"
             placeholder="Ваша почта"
           />
