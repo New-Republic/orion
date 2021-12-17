@@ -3,7 +3,7 @@ import "./price.scss";
 function Price() {
   return (
     <div className="journal">
-      <h1>page price</h1>
+      <h1>page jk</h1>
     </div>
   );
 }

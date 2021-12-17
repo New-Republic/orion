@@ -2,6 +2,7 @@ import "./home.scss";
 import "./Banner/Banner";
 import Banner from "./Banner/Banner";
 import HomeServices from "./HomeServices/Homeservices";
+import Homeprice from "../HomePrice/Homeprice";
 
 import Adverd from "./Adverd/Adverd";
 
@@ -72,6 +73,7 @@ function Home() {
           );
         })}
       </div>
+      <Homeprice />
 
       <Adverd />
     </div>
