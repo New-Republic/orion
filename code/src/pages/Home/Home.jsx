@@ -2,6 +2,7 @@ import "./home.scss";
 import "./Banner/Banner";
 import Banner from "./Banner/Banner";
 import HomeServices from "./HomeServices/Homeservices";
+import Homeprice from "../HomePrice/Homeprice";
 import Form from "./Form/Form";
 import Adverd from "./Adverd/Adverd";
 import FeedbackPage from "./FeedbackPage/FeedBackPage";
@@ -84,6 +85,7 @@ function Home() {
           );
         })}
       </div>
+      <Homeprice />
 
       <Adverd />
 
