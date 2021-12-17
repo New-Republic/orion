@@ -9,7 +9,7 @@ function Header() {
       <div className="header__inner">
         <div className="header__logo">
           <NavLink className="header__logo-link" to="/">
-            Logo
+            ORION
           </NavLink>
         </div>
 
