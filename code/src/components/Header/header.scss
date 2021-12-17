@@ -43,6 +43,7 @@
     width: 100%;
   }
 
+  // Nav menu (ul)
   &__menu {
     margin: 0;
     padding: 0;
@@ -50,6 +51,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    font-weight: 500;
+    letter-spacing: 1.1px;
 
     li {
       margin: 0 1rem;

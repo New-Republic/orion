@@ -21,7 +21,6 @@ function Aboutus() {
         <img
           src="https://lh3.googleusercontent.com/proxy/zpVt0JkU31s4foI6qu7v59XADTWUhbf-iqDAQFRke_ncHxiH7Q6_BdwwVREt7xteBYxPFq2dPMb5vjv_lWWiX5hLxKxgHpvNDZN8rQfuUGdOURjOlQJkZVNKmVVOspyCvg6B1M1g"
           alt="imagePageabout"
-          ooter
         />
       </div>
     </div>
