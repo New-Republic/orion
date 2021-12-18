@@ -6,7 +6,6 @@ import Homeprice from "../HomePrice/Homeprice";
 import Form from "./Form/Form";
 import Adverd from "./Adverd/Adverd";
 import FeedbackPage from "./FeedbackPage/FeedBackPage";
-import Feedback from "../../components/Feedback/Feedback";
 
 function Home() {
   const cards = [

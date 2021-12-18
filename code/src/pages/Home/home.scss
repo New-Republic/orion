@@ -2,27 +2,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  &__title-first{
+  &__title-first {
     margin-top: 90px;
     width: 53%;
     display: flex;
     justify-content: center;
     align-items: center;
-    h1{
+    h1 {
       font-size: 36px;
       font-style: bold;
     }
-    hr{
+    hr {
       width: 72px;
       height: 5px;
       background: #000;
     }
   }
-  &__second-title{
+  &__second-title {
     text-align: center;
     width: 750px;
     margin-top: 70px;
-    p{
+    p {
       font-size: 18px;
     }
   }
@@ -44,5 +44,9 @@
       }
     }
   }
-  
+
+  // Price card
+  .price-card {
+    margin-right: 25px;
+  }
 }

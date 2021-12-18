@@ -9,7 +9,7 @@
   flex-direction: column;
   place-items: center;
   overflow: hidden;
-  
+
   border: 1px solid rgb(193, 193, 193);
 
   &__info {
@@ -24,7 +24,6 @@
   &__user {
     font-size: 18px;
     text-align: center;
-    
   }
 
   &__name {
@@ -73,12 +72,10 @@
   &__item {
     text-align: center;
     margin-top: 15px;
-    
+
     border-bottom: 1px dashed #dedede;
     padding-bottom: 16px;
     color: rgb(118, 117, 117);
-
-   
   }
 
   &__none {
@@ -89,7 +86,7 @@
   }
 }
 
-.button {
+.buttonPrice {
   margin-top: 15px;
   margin-bottom: 16px;
   border: none;
