@@ -1,6 +1,9 @@
 import React from "react";
 import './contact.scss';
 import MainContacts from "../../components/Main-contacts/MainContacts";
+import MyComponent from "../../pages/Home/Form/GMap/GMap";
+import Formfill from "../../pages/Home/Form/Formfill/Formfill";
+// import Formfill from "./Formfill/Formfill";
 
 function Contact() {
   const contactData = [
@@ -55,6 +58,10 @@ function Contact() {
       contactPhone={item.phone} key={idx}/>
 })}  
       </div> 
+      <div className="contact__inner-form">
+      <MyComponent  className='contact__inner-form__items'/>
+      <Formfill className='contact__inner-form__items' />
+      </div>
     </div>
   );
 } 
