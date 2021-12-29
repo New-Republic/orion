@@ -20,6 +20,13 @@
 		background-color: #C4C4C4;
 		margin-bottom: 60px;
 	}
+	&__inner-form {
+		display: grid;
+		grid-template-columns: repeat(1fr 1fr);
+		&__items {
+			width: 100px !important;
+		}
+	}
 	&__descr {
 		font-style: normal;
 		font-weight: normal;
