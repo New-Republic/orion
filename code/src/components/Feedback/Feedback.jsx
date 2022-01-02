@@ -12,7 +12,7 @@ function Feedback() {
             умение команды оперативно реагировать на потребности клиентов.
           </p>
           <div className="feedBack__inner-triangle">
-            <svg xmlns="http://www.w3.org/2000/svg" class="svg-triangle">
+            <svg xmlns="http://www.w3.org/2000/svg" className="svg-triangle">
               <polygon points="10,0 90,0 50,50" />
             </svg>
           </div>

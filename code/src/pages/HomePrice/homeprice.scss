@@ -1,8 +1,12 @@
-
-.app {
-  max-width: 80%;
-  min-height: 100vh;
+.price-card__wrapper {
   display: flex;
-  place-items: center;
-  margin: 0 auto;
+  margin-top: 70px;
+
+  .price-card {
+    margin-right: 30px;
+
+    &__text {
+      padding: 10px 15px;
+    }
+  }
 }

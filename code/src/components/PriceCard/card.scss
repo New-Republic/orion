@@ -2,15 +2,14 @@
 @import "../../scss/fonts";
 
 .price-card {
-  position: relative;
-  max-width: 280px;
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  place-items: center;
-  overflow: hidden;
+  justify-content: center;
 
+  width: 100%;
   border: 1px solid rgb(193, 193, 193);
+
+  &__inner {
+  }
 
   &__info {
     margin-top: 15px;
@@ -40,7 +39,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 380px;
+    width: inherit;
     color: #fff;
 
     margin-top: 20px;

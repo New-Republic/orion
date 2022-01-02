@@ -9,8 +9,8 @@ function Projects() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    speed: 1300,
+    autoplaySpeed: 1300,
     cssEase: "linear",
   };
   return (

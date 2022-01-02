@@ -6,10 +6,10 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Services from "./pages/Services/Services";
 import Price from "./pages/Price/Price";
-import News from "./pages/News/News";
+import { News } from "./pages/pages";
+// import News from "./pages/News/News";
 import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/NotFound/NotFound";
-
 
 function App() {
   return (

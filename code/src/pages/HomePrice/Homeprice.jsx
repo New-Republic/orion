@@ -1,76 +1,16 @@
 import "./homeprice.scss";
-import Pricecard from "../../components/PriceCard/Card";
+import PriceCard from "../../components/PriceCard/Card";
 import React from "react";
 
-function Homeprice() {
-  const users = [
-    {
-      name: "ЭКСПРЕСС",
-      p: "ЕЖЕМЕСЯЧНЫЙ ПЛАН",
-      dollar: "$",
-      number: "49",
-      decimol: ".99",
-      item1: "Экспресс-диагностика ",
-      item2: "Хронометраж операций",
-      item3: "Решения по птимизации процессов",
-      item4: "Расчёт сдельных расценок",
-      item5: "Автоматизация бизнес-процессов",
-      item6: "Разработка плана внедрения",
-      item7: "Сопровождение внедрения",
-      button: "Записаться",
-    },
-    {
-      name: "ЭКСПРЕСС",
-      p: "ЕЖЕМЕСЯЧНЫЙ ПЛАН",
-      dollar: "$",
-      number: "49",
-      decimol: ".99",
-      item1: "Экспресс-диагностика ",
-      item2: "Хронометраж операций",
-      item3: "Решения по птимизации процессов",
-      item4: "Расчёт сдельных расценок",
-      item5: "Автоматизация бизнес-процессов",
-      item6: "Разработка плана внедрения",
-      item7: "Сопровождение внедрения",
-      button: "Записаться",
-    },
-    {
-      name: "ЭКСПРЕСС",
-      p: "ЕЖЕМЕСЯЧНЫЙ ПЛАН",
-      dollar: "$",
-      number: "49",
-      decimol: ".99",
-      item1: "Экспресс-диагностика ",
-      item2: "Хронометраж операций",
-      item3: "Решения по птимизации процессов",
-      item4: "Расчёт сдельных расценок",
-      item5: "Автоматизация бизнес-процессов",
-      item6: "Разработка плана внедрения",
-      item7: "Сопровождение внедрения",
-      button: "Записаться",
-    },
-    {
-      name: "ЭКСПРЕСС",
-      p: "ЕЖЕМЕСЯЧНЫЙ ПЛАН",
-      dollar: "$",
-      number: "49",
-      decimol: ".99",
-      item1: "Экспресс-диагностика ",
-      item2: "Хронометраж операций",
-      item3: "Решения по птимизации процессов",
-      item4: "Расчёт сдельных расценок",
-      item5: "Автоматизация бизнес-процессов",
-      item6: "Разработка плана внедрения",
-      item7: "Сопровождение внедрения",
-      button: "Записаться",
-    },
-  ];
+// Data Base
+import { users } from "../../db";
 
+function Homeprice() {
   return (
-    <div className="app">
+    <div className="price-card__wrapper">
       {users.map((user, idx) => {
         return (
-          <Pricecard
+          <PriceCard
             userName={user.name}
             userP={user.p}
             userDollar={user.dollar}

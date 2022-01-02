@@ -51,7 +51,7 @@ function Footer() {
               newsLink={item.newslink}
               newsDesc={item.newsdescription}
               newsTime={item.newstime}
-              key={idx}
+              key={idx + item.newstime}
             />
           );
         })}
